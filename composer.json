@@ -1,0 +1,39 @@
+{
+  "name": "astrotomic/laravel-medialibrary-hls",
+  "description": "",
+  "keywords": [
+    "laravel-medialibrary",
+    "media",
+    "conversion",
+    "video",
+    "hls",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "illuminate/contracts": "^7.0 || ^8.0",
+    "illuminate/support": "^7.0 || ^8.0",
+    "illuminate/filesystem": "^7.0 || ^8.0",
+    "illuminate/queue": "^7.0 || ^8.0",
+    "illuminate/broadcasting": "^7.0 || ^8.0",
+    "spatie/laravel-medialibrary": "^9.1.0",
+    "symfony/process": "^5.3",
+    "php-ffmpeg/php-ffmpeg": "^0.18.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0 || ^6.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Astrotomic\\MediaLibrary\\Hls\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
