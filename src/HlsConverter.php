@@ -26,6 +26,7 @@ class HlsConverter
     public const RES_1440P = '1440p';
     public const RES_2160P = '2160p';
 
+    // https://docs.peer5.com/guides/production-ready-hls-vod/#multi-bitrate-conversion
     public const RESOLUTIONS = [
         // name => [width, height, video-bitrate, audio-bitrate]
         self::RES_360P => [-2, 360, 900, 64],
